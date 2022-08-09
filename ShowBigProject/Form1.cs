@@ -28,5 +28,12 @@ namespace ShowBigProject
             Meet1_Delegate meet1_Delegate = new Meet1_Delegate();
             meet1_Delegate.Run();
         }
+
+        private void btnEvent_Click(object sender, EventArgs e)
+        {
+            Meet1_Events meet1_Events = new Meet1_Events();
+            Operate operate = new Operate();
+            operate.Init();
+        }
     }
 }
