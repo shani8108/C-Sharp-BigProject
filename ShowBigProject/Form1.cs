@@ -22,5 +22,11 @@ namespace ShowBigProject
             Meet1_Tuple meet1_Tuple = new Meet1_Tuple();
             meet1_Tuple.Run();
         }
+
+        private void btnDelegate_Click(object sender, EventArgs e)
+        {
+            Meet1_Delegate meet1_Delegate = new Meet1_Delegate();
+            meet1_Delegate.Run();
+        }
     }
 }
