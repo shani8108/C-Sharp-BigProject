@@ -16,5 +16,11 @@ namespace ShowBigProject
         {
             InitializeComponent();
         }
+
+        private void btnTupple_Click(object sender, EventArgs e)
+        {
+            Meet1_Tuple meet1_Tuple = new Meet1_Tuple();
+            meet1_Tuple.Run();
+        }
     }
 }
