@@ -35,5 +35,11 @@ namespace ShowBigProject
             Operate operate = new Operate();
             operate.Init();
         }
+
+        private void btnForEach_Click(object sender, EventArgs e)
+        {
+            Meet2_Foreach meet2_Foreach = new Meet2_Foreach();
+            meet2_Foreach.RunMyItems();
+        }
     }
 }
