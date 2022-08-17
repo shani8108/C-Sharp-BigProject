@@ -41,5 +41,11 @@ namespace ShowBigProject
             Meet2_Foreach meet2_Foreach = new Meet2_Foreach();
             meet2_Foreach.RunMyItems();
         }
+
+        private void btnStackHeap_Click(object sender, EventArgs e)
+        {
+            Meet3_StackHeap meet3_StackHeap = new Meet3_StackHeap();
+            meet3_StackHeap.Run();
+        }
     }
 }

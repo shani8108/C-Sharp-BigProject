@@ -57,6 +57,7 @@
     <Compile Include="Meet1-Tuple.cs" />
     <Compile Include="Meet2-Foreach.cs" />
     <Compile Include="Meet2-Interfaces.cs" />
+    <Compile Include="Meet3-StackHeap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
