@@ -33,6 +33,7 @@
             this.btnEvent = new System.Windows.Forms.Button();
             this.btnForEach = new System.Windows.Forms.Button();
             this.btnStackHeap = new System.Windows.Forms.Button();
+            this.btnRefVal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTupple
@@ -85,11 +86,22 @@
             this.btnStackHeap.UseVisualStyleBackColor = true;
             this.btnStackHeap.Click += new System.EventHandler(this.btnStackHeap_Click);
             // 
+            // btnRefVal
+            // 
+            this.btnRefVal.Location = new System.Drawing.Point(65, 274);
+            this.btnRefVal.Name = "btnRefVal";
+            this.btnRefVal.Size = new System.Drawing.Size(75, 23);
+            this.btnRefVal.TabIndex = 5;
+            this.btnRefVal.Text = "RefVal";
+            this.btnRefVal.UseVisualStyleBackColor = true;
+            this.btnRefVal.Click += new System.EventHandler(this.btnRefVal_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRefVal);
             this.Controls.Add(this.btnStackHeap);
             this.Controls.Add(this.btnForEach);
             this.Controls.Add(this.btnEvent);
@@ -108,6 +120,7 @@
         private System.Windows.Forms.Button btnEvent;
         private System.Windows.Forms.Button btnForEach;
         private System.Windows.Forms.Button btnStackHeap;
+        private System.Windows.Forms.Button btnRefVal;
     }
 }
 

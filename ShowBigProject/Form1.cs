@@ -47,5 +47,11 @@ namespace ShowBigProject
             Meet3_StackHeap meet3_StackHeap = new Meet3_StackHeap();
             meet3_StackHeap.Run();
         }
+
+        private void btnRefVal_Click(object sender, EventArgs e)
+        {
+            Meet3_RefVal meet3_RefVal = new Meet3_RefVal(); 
+            meet3_RefVal.Run();
+        }
     }
 }
