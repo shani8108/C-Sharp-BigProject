@@ -58,6 +58,8 @@
     <Compile Include="Meet2-Foreach.cs" />
     <Compile Include="Meet2-Interfaces.cs" />
     <Compile Include="Meet3-Nullable.cs" />
+    <Compile Include="Meet3-PartialClass1_partial_1.cs" />
+    <Compile Include="Meet3-PartialClass1_partial_2.cs" />
     <Compile Include="Meet3-RefVal.cs" />
     <Compile Include="Meet3-StackHeap.cs" />
     <Compile Include="Program.cs" />
