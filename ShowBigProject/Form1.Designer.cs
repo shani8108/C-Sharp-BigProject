@@ -34,6 +34,10 @@
             this.btnForEach = new System.Windows.Forms.Button();
             this.btnStackHeap = new System.Windows.Forms.Button();
             this.btnRefVal = new System.Windows.Forms.Button();
+            this.btnNullable = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnTupple
@@ -96,11 +100,52 @@
             this.btnRefVal.UseVisualStyleBackColor = true;
             this.btnRefVal.Click += new System.EventHandler(this.btnRefVal_Click);
             // 
+            // btnNullable
+            // 
+            this.btnNullable.Location = new System.Drawing.Point(65, 320);
+            this.btnNullable.Name = "btnNullable";
+            this.btnNullable.Size = new System.Drawing.Size(75, 23);
+            this.btnNullable.TabIndex = 6;
+            this.btnNullable.Text = "Nullable";
+            this.btnNullable.UseVisualStyleBackColor = true;
+            this.btnNullable.Click += new System.EventHandler(this.btnNullable_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Meet1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 163);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Meet2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 215);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 16);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Meet3";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnNullable);
             this.Controls.Add(this.btnRefVal);
             this.Controls.Add(this.btnStackHeap);
             this.Controls.Add(this.btnForEach);
@@ -110,6 +155,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -121,6 +167,10 @@
         private System.Windows.Forms.Button btnForEach;
         private System.Windows.Forms.Button btnStackHeap;
         private System.Windows.Forms.Button btnRefVal;
+        private System.Windows.Forms.Button btnNullable;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
