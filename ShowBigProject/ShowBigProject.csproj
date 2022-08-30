@@ -62,6 +62,7 @@
     <Compile Include="Meet3-PartialClass1_partial_2.cs" />
     <Compile Include="Meet3-RefVal.cs" />
     <Compile Include="Meet3-StackHeap.cs" />
+    <Compile Include="Meet3-Struct.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
