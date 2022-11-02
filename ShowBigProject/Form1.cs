@@ -60,5 +60,11 @@ namespace ShowBigProject
             meet3_Nullable.Run();
                     
         }
+
+        private void btnLinq1_Click(object sender, EventArgs e)
+        {
+            Meet4_Linq1 meet4_Linq1 = new Meet4_Linq1();
+            meet4_Linq1.Run2();
+        }
     }
 }
