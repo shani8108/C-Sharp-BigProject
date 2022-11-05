@@ -66,5 +66,11 @@ namespace ShowBigProject
             Meet4_Linq1 meet4_Linq1 = new Meet4_Linq1();
             meet4_Linq1.Run2();
         }
+
+        private void btnExtensionMethods_Click(object sender, EventArgs e)
+        {
+            Meet5_ExtensionMethods meet5_ExtensionMethods = new Meet5_ExtensionMethods();
+            meet5_ExtensionMethods.Run();
+        }
     }
 }

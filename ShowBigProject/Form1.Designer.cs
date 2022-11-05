@@ -40,6 +40,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnLinq1 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnExtensionMethods = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTupple
@@ -158,11 +160,31 @@
             this.btnLinq1.UseVisualStyleBackColor = true;
             this.btnLinq1.Click += new System.EventHandler(this.btnLinq1_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(248, 91);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(44, 16);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Meet5";
+            // 
+            // btnExtensionMethods
+            // 
+            this.btnExtensionMethods.Location = new System.Drawing.Point(288, 122);
+            this.btnExtensionMethods.Name = "btnExtensionMethods";
+            this.btnExtensionMethods.Size = new System.Drawing.Size(75, 23);
+            this.btnExtensionMethods.TabIndex = 0;
+            this.btnExtensionMethods.Text = "ExtensionMethods";
+            this.btnExtensionMethods.UseVisualStyleBackColor = true;
+            this.btnExtensionMethods.Click += new System.EventHandler(this.btnExtensionMethods_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -173,6 +195,7 @@
             this.Controls.Add(this.btnForEach);
             this.Controls.Add(this.btnEvent);
             this.Controls.Add(this.btnDelegate);
+            this.Controls.Add(this.btnExtensionMethods);
             this.Controls.Add(this.btnLinq1);
             this.Controls.Add(this.btnTupple);
             this.Name = "Form1";
@@ -196,6 +219,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnLinq1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnExtensionMethods;
     }
 }
 
