@@ -47,6 +47,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btnIsAs = new System.Windows.Forms.Button();
             this.btnIdispose = new System.Windows.Forms.Button();
+            this.btnGenerics = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnTupple
@@ -233,6 +235,25 @@
             this.btnIdispose.UseVisualStyleBackColor = true;
             this.btnIdispose.Click += new System.EventHandler(this.btnIdispose_Click);
             // 
+            // btnGenerics
+            // 
+            this.btnGenerics.Location = new System.Drawing.Point(450, 122);
+            this.btnGenerics.Name = "btnGenerics";
+            this.btnGenerics.Size = new System.Drawing.Size(75, 23);
+            this.btnGenerics.TabIndex = 0;
+            this.btnGenerics.Text = "Generics";
+            this.btnGenerics.UseVisualStyleBackColor = true;
+            this.btnGenerics.Click += new System.EventHandler(this.btnGenerics_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(410, 101);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(44, 16);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Meet8";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -240,6 +261,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -255,6 +277,7 @@
             this.Controls.Add(this.btnIsAs);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnExtensionMethods);
+            this.Controls.Add(this.btnGenerics);
             this.Controls.Add(this.btnLinq1);
             this.Controls.Add(this.btnTupple);
             this.Name = "Form1";
@@ -285,6 +308,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnIsAs;
         private System.Windows.Forms.Button btnIdispose;
+        private System.Windows.Forms.Button btnGenerics;
+        private System.Windows.Forms.Label label7;
     }
 }
 

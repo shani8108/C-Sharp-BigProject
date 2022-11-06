@@ -95,5 +95,11 @@ namespace ShowBigProject
             Meet6_Idispose meet6_Idispose = new Meet6_Idispose();
             meet6_Idispose.Run();
         }
+
+        private void btnGenerics_Click(object sender, EventArgs e)
+        {
+            Meet8_Generics meet8_Generics = new Meet8_Generics();
+            meet8_Generics.Run();
+        }
     }
 }
