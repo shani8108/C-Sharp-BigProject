@@ -69,6 +69,7 @@
     <Compile Include="Meet6-Check.cs" />
     <Compile Include="Meet6-Idispose.cs" />
     <Compile Include="Meet6-Is-As.cs" />
+    <Compile Include="Meet7-Type.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
