@@ -66,6 +66,7 @@
     <Compile Include="Meet4-Linq1.cs" />
     <Compile Include="Meet5-ExtensionMethods.cs" />
     <Compile Include="Meet5-GarbageCollector.cs" />
+    <Compile Include="Meet6-Check.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

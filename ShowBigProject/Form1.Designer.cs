@@ -43,6 +43,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnExtensionMethods = new System.Windows.Forms.Button();
             this.btnGarbageCollector = new System.Windows.Forms.Button();
+            this.btnCheck = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnTupple
@@ -190,11 +192,31 @@
             this.btnGarbageCollector.UseVisualStyleBackColor = true;
             this.btnGarbageCollector.Click += new System.EventHandler(this.btnGarbageCollector_Click);
             // 
+            // btnCheck
+            // 
+            this.btnCheck.Location = new System.Drawing.Point(288, 226);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(75, 23);
+            this.btnCheck.TabIndex = 0;
+            this.btnCheck.Text = "Check";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(248, 195);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 16);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Meet6";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -207,6 +229,7 @@
             this.Controls.Add(this.btnEvent);
             this.Controls.Add(this.btnDelegate);
             this.Controls.Add(this.btnGarbageCollector);
+            this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnExtensionMethods);
             this.Controls.Add(this.btnLinq1);
             this.Controls.Add(this.btnTupple);
@@ -234,6 +257,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnExtensionMethods;
         private System.Windows.Forms.Button btnGarbageCollector;
+        private System.Windows.Forms.Button btnCheck;
+        private System.Windows.Forms.Label label6;
     }
 }
 

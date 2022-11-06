@@ -77,5 +77,11 @@ namespace ShowBigProject
         {
             Meet5_GarbageCollector meet5_GarbageCollector = new Meet5_GarbageCollector();   
         }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            Meet6_Check meet6_Check = new Meet6_Check();
+            meet6_Check.Run();
+        }
     }
 }
