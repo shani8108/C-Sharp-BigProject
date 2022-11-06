@@ -72,5 +72,10 @@ namespace ShowBigProject
             Meet5_ExtensionMethods meet5_ExtensionMethods = new Meet5_ExtensionMethods();
             meet5_ExtensionMethods.Run();
         }
+
+        private void btnGarbageCollector_Click(object sender, EventArgs e)
+        {
+            Meet5_GarbageCollector meet5_GarbageCollector = new Meet5_GarbageCollector();   
+        }
     }
 }

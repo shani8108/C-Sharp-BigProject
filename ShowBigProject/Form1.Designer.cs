@@ -42,6 +42,7 @@
             this.btnLinq1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.btnExtensionMethods = new System.Windows.Forms.Button();
+            this.btnGarbageCollector = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTupple
@@ -179,6 +180,16 @@
             this.btnExtensionMethods.UseVisualStyleBackColor = true;
             this.btnExtensionMethods.Click += new System.EventHandler(this.btnExtensionMethods_Click);
             // 
+            // btnGarbageCollector
+            // 
+            this.btnGarbageCollector.Location = new System.Drawing.Point(288, 163);
+            this.btnGarbageCollector.Name = "btnGarbageCollector";
+            this.btnGarbageCollector.Size = new System.Drawing.Size(75, 23);
+            this.btnGarbageCollector.TabIndex = 0;
+            this.btnGarbageCollector.Text = "GarbageCollector";
+            this.btnGarbageCollector.UseVisualStyleBackColor = true;
+            this.btnGarbageCollector.Click += new System.EventHandler(this.btnGarbageCollector_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -195,6 +206,7 @@
             this.Controls.Add(this.btnForEach);
             this.Controls.Add(this.btnEvent);
             this.Controls.Add(this.btnDelegate);
+            this.Controls.Add(this.btnGarbageCollector);
             this.Controls.Add(this.btnExtensionMethods);
             this.Controls.Add(this.btnLinq1);
             this.Controls.Add(this.btnTupple);
@@ -221,6 +233,7 @@
         private System.Windows.Forms.Button btnLinq1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnExtensionMethods;
+        private System.Windows.Forms.Button btnGarbageCollector;
     }
 }
 
