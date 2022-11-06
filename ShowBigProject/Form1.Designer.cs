@@ -49,6 +49,8 @@
             this.btnIdispose = new System.Windows.Forms.Button();
             this.btnGenerics = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnFinalizer = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnTupple
@@ -254,6 +256,25 @@
             this.label7.TabIndex = 7;
             this.label7.Text = "Meet8";
             // 
+            // btnFinalizer
+            // 
+            this.btnFinalizer.Location = new System.Drawing.Point(450, 43);
+            this.btnFinalizer.Name = "btnFinalizer";
+            this.btnFinalizer.Size = new System.Drawing.Size(75, 23);
+            this.btnFinalizer.TabIndex = 0;
+            this.btnFinalizer.Text = "Type-Finalizer";
+            this.btnFinalizer.UseVisualStyleBackColor = true;
+            this.btnFinalizer.Click += new System.EventHandler(this.btnFinalizer_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(410, 22);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(44, 16);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Meet7";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -261,6 +282,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -277,6 +299,7 @@
             this.Controls.Add(this.btnIsAs);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnExtensionMethods);
+            this.Controls.Add(this.btnFinalizer);
             this.Controls.Add(this.btnGenerics);
             this.Controls.Add(this.btnLinq1);
             this.Controls.Add(this.btnTupple);
@@ -310,6 +333,8 @@
         private System.Windows.Forms.Button btnIdispose;
         private System.Windows.Forms.Button btnGenerics;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnFinalizer;
+        private System.Windows.Forms.Label label8;
     }
 }
 

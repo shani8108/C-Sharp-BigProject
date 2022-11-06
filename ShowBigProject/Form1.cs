@@ -101,5 +101,11 @@ namespace ShowBigProject
             Meet8_Generics meet8_Generics = new Meet8_Generics();
             meet8_Generics.Run();
         }
+
+        private void btnFinalizer_Click(object sender, EventArgs e)
+        {
+            Meet7_Type meet7_Type = new Meet7_Type();
+            meet7_Type.Run();
+        }
     }
 }
