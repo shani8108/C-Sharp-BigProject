@@ -57,7 +57,7 @@
             // 
             this.btnTupple.Location = new System.Drawing.Point(65, 43);
             this.btnTupple.Name = "btnTupple";
-            this.btnTupple.Size = new System.Drawing.Size(75, 23);
+            this.btnTupple.Size = new System.Drawing.Size(106, 23);
             this.btnTupple.TabIndex = 0;
             this.btnTupple.Text = "Tupple";
             this.btnTupple.UseVisualStyleBackColor = true;
@@ -67,7 +67,7 @@
             // 
             this.btnDelegate.Location = new System.Drawing.Point(65, 88);
             this.btnDelegate.Name = "btnDelegate";
-            this.btnDelegate.Size = new System.Drawing.Size(75, 23);
+            this.btnDelegate.Size = new System.Drawing.Size(106, 23);
             this.btnDelegate.TabIndex = 1;
             this.btnDelegate.Text = "Delegate";
             this.btnDelegate.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             // 
             this.btnEvent.Location = new System.Drawing.Point(65, 133);
             this.btnEvent.Name = "btnEvent";
-            this.btnEvent.Size = new System.Drawing.Size(75, 23);
+            this.btnEvent.Size = new System.Drawing.Size(106, 23);
             this.btnEvent.TabIndex = 2;
             this.btnEvent.Text = "Event";
             this.btnEvent.UseVisualStyleBackColor = true;
@@ -87,7 +87,7 @@
             // 
             this.btnForEach.Location = new System.Drawing.Point(65, 179);
             this.btnForEach.Name = "btnForEach";
-            this.btnForEach.Size = new System.Drawing.Size(75, 23);
+            this.btnForEach.Size = new System.Drawing.Size(106, 23);
             this.btnForEach.TabIndex = 3;
             this.btnForEach.Text = "ForEach";
             this.btnForEach.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             // 
             this.btnStackHeap.Location = new System.Drawing.Point(65, 226);
             this.btnStackHeap.Name = "btnStackHeap";
-            this.btnStackHeap.Size = new System.Drawing.Size(75, 23);
+            this.btnStackHeap.Size = new System.Drawing.Size(106, 23);
             this.btnStackHeap.TabIndex = 4;
             this.btnStackHeap.Text = "StackHeap";
             this.btnStackHeap.UseVisualStyleBackColor = true;
@@ -107,7 +107,7 @@
             // 
             this.btnRefVal.Location = new System.Drawing.Point(65, 274);
             this.btnRefVal.Name = "btnRefVal";
-            this.btnRefVal.Size = new System.Drawing.Size(75, 23);
+            this.btnRefVal.Size = new System.Drawing.Size(106, 23);
             this.btnRefVal.TabIndex = 5;
             this.btnRefVal.Text = "RefVal";
             this.btnRefVal.UseVisualStyleBackColor = true;
@@ -117,7 +117,7 @@
             // 
             this.btnNullable.Location = new System.Drawing.Point(65, 320);
             this.btnNullable.Name = "btnNullable";
-            this.btnNullable.Size = new System.Drawing.Size(75, 23);
+            this.btnNullable.Size = new System.Drawing.Size(106, 23);
             this.btnNullable.TabIndex = 6;
             this.btnNullable.Text = "Nullable";
             this.btnNullable.UseVisualStyleBackColor = true;
@@ -163,7 +163,7 @@
             // 
             this.btnLinq1.Location = new System.Drawing.Point(288, 43);
             this.btnLinq1.Name = "btnLinq1";
-            this.btnLinq1.Size = new System.Drawing.Size(75, 23);
+            this.btnLinq1.Size = new System.Drawing.Size(133, 23);
             this.btnLinq1.TabIndex = 0;
             this.btnLinq1.Text = "LINQ 1";
             this.btnLinq1.UseVisualStyleBackColor = true;
@@ -182,7 +182,7 @@
             // 
             this.btnExtensionMethods.Location = new System.Drawing.Point(288, 122);
             this.btnExtensionMethods.Name = "btnExtensionMethods";
-            this.btnExtensionMethods.Size = new System.Drawing.Size(75, 23);
+            this.btnExtensionMethods.Size = new System.Drawing.Size(133, 23);
             this.btnExtensionMethods.TabIndex = 0;
             this.btnExtensionMethods.Text = "ExtensionMethods";
             this.btnExtensionMethods.UseVisualStyleBackColor = true;
@@ -192,7 +192,7 @@
             // 
             this.btnGarbageCollector.Location = new System.Drawing.Point(288, 163);
             this.btnGarbageCollector.Name = "btnGarbageCollector";
-            this.btnGarbageCollector.Size = new System.Drawing.Size(75, 23);
+            this.btnGarbageCollector.Size = new System.Drawing.Size(133, 23);
             this.btnGarbageCollector.TabIndex = 0;
             this.btnGarbageCollector.Text = "GarbageCollector";
             this.btnGarbageCollector.UseVisualStyleBackColor = true;
@@ -202,7 +202,7 @@
             // 
             this.btnCheck.Location = new System.Drawing.Point(288, 226);
             this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(75, 23);
+            this.btnCheck.Size = new System.Drawing.Size(133, 23);
             this.btnCheck.TabIndex = 0;
             this.btnCheck.Text = "Check";
             this.btnCheck.UseVisualStyleBackColor = true;
@@ -221,7 +221,7 @@
             // 
             this.btnIsAs.Location = new System.Drawing.Point(288, 274);
             this.btnIsAs.Name = "btnIsAs";
-            this.btnIsAs.Size = new System.Drawing.Size(75, 23);
+            this.btnIsAs.Size = new System.Drawing.Size(133, 23);
             this.btnIsAs.TabIndex = 0;
             this.btnIsAs.Text = "Is-As";
             this.btnIsAs.UseVisualStyleBackColor = true;
@@ -231,7 +231,7 @@
             // 
             this.btnIdispose.Location = new System.Drawing.Point(288, 320);
             this.btnIdispose.Name = "btnIdispose";
-            this.btnIdispose.Size = new System.Drawing.Size(75, 23);
+            this.btnIdispose.Size = new System.Drawing.Size(133, 23);
             this.btnIdispose.TabIndex = 0;
             this.btnIdispose.Text = "Idispose";
             this.btnIdispose.UseVisualStyleBackColor = true;
@@ -239,9 +239,9 @@
             // 
             // btnGenerics
             // 
-            this.btnGenerics.Location = new System.Drawing.Point(450, 122);
+            this.btnGenerics.Location = new System.Drawing.Point(523, 122);
             this.btnGenerics.Name = "btnGenerics";
-            this.btnGenerics.Size = new System.Drawing.Size(75, 23);
+            this.btnGenerics.Size = new System.Drawing.Size(122, 23);
             this.btnGenerics.TabIndex = 0;
             this.btnGenerics.Text = "Generics";
             this.btnGenerics.UseVisualStyleBackColor = true;
@@ -250,7 +250,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(410, 101);
+            this.label7.Location = new System.Drawing.Point(483, 101);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(44, 16);
             this.label7.TabIndex = 7;
@@ -258,9 +258,9 @@
             // 
             // btnFinalizer
             // 
-            this.btnFinalizer.Location = new System.Drawing.Point(450, 43);
+            this.btnFinalizer.Location = new System.Drawing.Point(523, 43);
             this.btnFinalizer.Name = "btnFinalizer";
-            this.btnFinalizer.Size = new System.Drawing.Size(75, 23);
+            this.btnFinalizer.Size = new System.Drawing.Size(122, 23);
             this.btnFinalizer.TabIndex = 0;
             this.btnFinalizer.Text = "Type-Finalizer";
             this.btnFinalizer.UseVisualStyleBackColor = true;
@@ -269,7 +269,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(410, 22);
+            this.label8.Location = new System.Drawing.Point(483, 22);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 16);
             this.label8.TabIndex = 7;
