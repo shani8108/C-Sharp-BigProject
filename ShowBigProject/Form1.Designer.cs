@@ -46,6 +46,7 @@
             this.btnCheck = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.btnIsAs = new System.Windows.Forms.Button();
+            this.btnIdispose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTupple
@@ -222,6 +223,16 @@
             this.btnIsAs.UseVisualStyleBackColor = true;
             this.btnIsAs.Click += new System.EventHandler(this.btnIsAs_Click);
             // 
+            // btnIdispose
+            // 
+            this.btnIdispose.Location = new System.Drawing.Point(288, 320);
+            this.btnIdispose.Name = "btnIdispose";
+            this.btnIdispose.Size = new System.Drawing.Size(75, 23);
+            this.btnIdispose.TabIndex = 0;
+            this.btnIdispose.Text = "Idispose";
+            this.btnIdispose.UseVisualStyleBackColor = true;
+            this.btnIdispose.Click += new System.EventHandler(this.btnIdispose_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -240,6 +251,7 @@
             this.Controls.Add(this.btnEvent);
             this.Controls.Add(this.btnDelegate);
             this.Controls.Add(this.btnGarbageCollector);
+            this.Controls.Add(this.btnIdispose);
             this.Controls.Add(this.btnIsAs);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnExtensionMethods);
@@ -272,6 +284,7 @@
         private System.Windows.Forms.Button btnCheck;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnIsAs;
+        private System.Windows.Forms.Button btnIdispose;
     }
 }
 

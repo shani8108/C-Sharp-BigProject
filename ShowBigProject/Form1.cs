@@ -89,5 +89,11 @@ namespace ShowBigProject
             Meet6_Is_As meet6_IsAs = new Meet6_Is_As(); 
             meet6_IsAs.Run();
         }
+
+        private void btnIdispose_Click(object sender, EventArgs e)
+        {
+            Meet6_Idispose meet6_Idispose = new Meet6_Idispose();
+            meet6_Idispose.Run();
+        }
     }
 }

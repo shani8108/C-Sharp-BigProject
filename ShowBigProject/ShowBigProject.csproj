@@ -67,6 +67,7 @@
     <Compile Include="Meet5-ExtensionMethods.cs" />
     <Compile Include="Meet5-GarbageCollector.cs" />
     <Compile Include="Meet6-Check.cs" />
+    <Compile Include="Meet6-Idispose.cs" />
     <Compile Include="Meet6-Is-As.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
