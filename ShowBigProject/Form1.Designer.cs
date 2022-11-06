@@ -45,6 +45,7 @@
             this.btnGarbageCollector = new System.Windows.Forms.Button();
             this.btnCheck = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnIsAs = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTupple
@@ -211,6 +212,16 @@
             this.label6.TabIndex = 7;
             this.label6.Text = "Meet6";
             // 
+            // btnIsAs
+            // 
+            this.btnIsAs.Location = new System.Drawing.Point(288, 274);
+            this.btnIsAs.Name = "btnIsAs";
+            this.btnIsAs.Size = new System.Drawing.Size(75, 23);
+            this.btnIsAs.TabIndex = 0;
+            this.btnIsAs.Text = "Is-As";
+            this.btnIsAs.UseVisualStyleBackColor = true;
+            this.btnIsAs.Click += new System.EventHandler(this.btnIsAs_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -229,6 +240,7 @@
             this.Controls.Add(this.btnEvent);
             this.Controls.Add(this.btnDelegate);
             this.Controls.Add(this.btnGarbageCollector);
+            this.Controls.Add(this.btnIsAs);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnExtensionMethods);
             this.Controls.Add(this.btnLinq1);
@@ -259,6 +271,7 @@
         private System.Windows.Forms.Button btnGarbageCollector;
         private System.Windows.Forms.Button btnCheck;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnIsAs;
     }
 }
 
