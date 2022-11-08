@@ -32,7 +32,7 @@ namespace ShowBigProject
             meet1_events.TimeOut_handler += ui.UpdateUIAfterTimeOut;
             meet1_events.Run();
             //un register from boardcast List
-            meet1_events.TimeOut_handler += ui.UpdateUIAfterTimeOut;
+            meet1_events.TimeOut_handler -= ui.UpdateUIAfterTimeOut;
             meet1_events.Run();
         }
     }
